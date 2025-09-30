@@ -14,9 +14,12 @@
             echo "<br><br> O valor arredondado de $n2 é igual a " .round($n2);
             echo "<br><br> O valor arredondado de $n2 é igual a " .ceil($n2);
             echo "<br><br> O valor arredondado de $n2 é igual a " .floor($n2);
+            echo "<br><br><br>";
+            echo "A parte inteira de $n2 é igual a " . intval($n2);
 
+            echo"<br><br>";
+            echo"um pirulito custa R$" .number_format($n1, 2, ",", ".");
 
-            
         ?>
     </body>
 </html>
